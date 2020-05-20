@@ -1,0 +1,24 @@
+p {
+	color: cyan
+	background: crimson;
+	font-style: underline;
+	font-weight: bold;
+	text-align: right;
+}
+
+#text1 {
+	
+	text-align: center;
+	font: bold 15px indie flower;
+	text-shadow: 6px 6px 5px darkkhaki,
+				 8px 8px 7px purple;
+}
+
+#text2 {
+	
+	text-align: center;
+	font: bold 15px indie flower;
+	text-shadow: 6px 6px 5px rgba(0,0,255,0.3);
+	
+}
+				 
