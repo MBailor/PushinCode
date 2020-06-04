@@ -1,15 +1,4 @@
-h1	{
-		color:Purple;
-		text-align: center;
-	}
-	
-p  {
-		color:OrangeRed;
-		text-align: right;
-    }
-	
-p1	{
-		color:DarkGoldenRod;
-		text-align: Left;
-    }
-	
+html {
+	font-family: Impact, 'haettenschweiler', sans-serif;
+	font-size: 68.9%;
+}

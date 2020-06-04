@@ -1,0 +1,88 @@
+html {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 8px;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  background-color: #FFDAB9;
+}
+
+p {
+  font-family: fantasy, sans-serif;
+  font-size: 18pt;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  border-radius: 12px;
+  margin: 4 auto;
+  background-color: rgba(128,0,0,.4);
+  box-shadow: 4px 4px 15px 2 rgba(128, 128, 128, .7);
+}
+
+#contact {
+  background-color: #f00;
+}
+
+.rsvp {
+  width: 55%;
+  padding:13%;
+  border-radius: 10px;
+  margin: 2px auto;
+  background-color: rgba(128,128,0,.6);
+  box-shadow: 2px 2px -2px 0 rgba(255,0,0,.8)
+}
+
+.rsvp h1 {
+  width: 80%;
+  text-align: center;
+  margin: 4 auto;
+  color: #FF6347;
+  font-weight: 999;
+  font-size: 18px;
+  letter-spacing: 0pt;
+  word-spacing: 0pt;
+}
+
+.rsvp form {
+  font-size: 12px;
+  outline: 1px dotted #000;
+  font-weight: 650;
+  color: blue;
+  padding: 15px 15px;
+  width: 35%;
+  border: 6px solid #2E8B57;
+  margin: 2% auto;
+  border-radius: 15px;
+}
+
+.rsvp input[type="text"] {
+  font-size: 18px;
+  outline: none;
+  font-weight: 650;
+  color: blue;
+  padding: 15px 15px;
+  width: 35%;
+  border-top: 3px solid #000;
+  border-right: 6px solid #2E8B57;
+  border-left: 6px solid #2E8B57;
+  margin: 12px 3em;
+  border-radius: 14px;
+  background: #808000;
+  box-shadow: inset 2px 8px 2px 8px rgba(107,142,35,.5);
+  font-family: fantasy;
+}
+
+.rsvp input[type="text"]:hover{
+  box-shadow: 0 0 16px rgba(188,143,143.5);
+}
+
+.form-spacer {
+  padding: 28px 12px;
+}
+
