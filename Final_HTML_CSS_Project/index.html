@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head -->
+<head>
+    <meta charset="utf-8">
+    <title>Mark Bailor</title>
+    <link rel="stylesheet" type="text/css" href="./css/final.css">
+</head>
+
+<!-- Body -->
+<body class="Background">
+
+<!-- Navbar -->
+<div class="Navbar">
+  <a class="active" href="#Home">Home</a>
+  <a href="#About">About</a>
+  <a href="#GitHub">GitHub</a>
+  <a href="#Contact">Contact</a>
+</div>
+
+<!-- Home -->
+    <br> <!-- Breaks inserted to add space between navbar and first heading -->
+    <br>
+
+<!-- Video -->
+  <div id="Home">
+    <video autoplay muted loop id="moto"> <!-- Makes the video play automatically, on a loop with no sound -->
+      <source src="./images/moto.mp4" type="video/mp4">Your browser does not support HTML5 video. <!-- Message to display if video fails to run -->
+    </video>
+  </div>
+
+<!-- Video text -->
+  <div class="Video_Text">
+      <h1>Mark Bailor's Portfolio</h1>
+      <p>
+          <strong>
+              <center>
+                <q>Programming today is a race between software engineers striving to build bigger and better idiot-proof programs,<br>  
+                and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.</q>
+                <br>-Rick Cook, The Wizardry Compiled<br>
+                <br>
+                My name is Mark Bailor. Welcome to my portfolio website. On it, I will tell you about my background and experience.<br>
+                <br>Thank you for stopping by and enjoy! 
+              </center>
+          </strong>
+      </p>
+  </div>
+  
+  <!-- About section -->
+  <div class="Row" id="About">
+      <div class="Column_2"> <!-- Left column -->
+          <img src="./images/compucycle-lg.png" alt="Computer cycle">
+      </div>
+
+      <div class="Column_1"> <!-- Right column-->
+        <h1>About</h2>
+          <p>I am a new software developer who loves to code! As an adventure motorcyclist, I enjoy covering long distences and rough terrain on the back of my trusty motorcycle. A 2000 KLR 650. <br><br> I will soon be a graduate of <a heref="https://www.learncodinganywhere.com" target="blank">The Tech Academy</a>'s Software Developer Boot Camp. I am currently training and gaining experience with the following languages: HTML, CSS, JavaScript, SQL, C# and more. <br><br>I will be a full-stack developer and I can't wait to work with you on your next project. <a href="#Contact">Contact</a>me below!</p>
+      </div>
+  </div>
+
+<!-- GitHub Section -->
+  <div class="Row" id="GitHub">
+      <div class="Column_1"> <!-- Left column -->
+        <h1>GitHub</h1>
+          <p>You can view my coding projects on my GitHub profile here:<br>
+          <center><a href="https://github.com/MBailor/PushinCode" target="_blank">Mark Bailor's GitHub</a></center></p>
+      </div>
+
+      <div class="Column_2"> <!-- Right column -->
+        <a href="https://github.com/MBailor/PushinCode" target="_blank"><img src="./images/ghi.png" alt="GitHub"></a>
+      </div>      
+  </div>  
+
+<!-- Contact section -->
+  
+  <div class="Row" id="Contact">
+    <div class="Column_3"><!-- Contact image, left column -->
+      <img src="./images/contact.png" alt="Cool Cat">
+    </div>
+  
+
+  <div class="Column_1"><!-- Contact form, right "column" -->
+      <h1>Contact</h2>
+          <form action="" method="get"> <!-- This specifies where to send the form data and how; it is left blank -->
+            <label>Name:</label>
+              <input type="text" placeholder="Enter Your Name">
+            <label>Email:</label>
+              <input type="text" id="Email" name="Email" placeholder="Enter Your Email">
+            <label>Message:</label>
+              <input type="text" id="Message" name="Message" placeholder="Please Leave A Message">
+                <input type="submit" value="Submit">           
+          </form> 
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+      <p>
+          <center>&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/">The Tech Academy </a></center><br>
+      </p>
+  </footer>
+
+</body>
+
+</html>
