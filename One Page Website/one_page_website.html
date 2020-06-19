@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>The KLR650</title>
 	<link rel="stylesheet" href="./CSS/one_page_website.css">
+	<script src="./JS/one_page_website.js" defer></script>
 		<h1>One Page About The KLR650</h1>
 <body>
 	<div>
@@ -46,54 +47,71 @@
 	<br>
 	</div>
 	
-	<!--- GALLERY --->
-	<br>
-	<div>
-				
-		<div>
-			<div id="gallery">
-			<h1>GALLERY</h1> 
+	
+
+			<h2 style="text-align:center">Lightbox</h2>
+
+			<div class="row">
+					<div class="column">
+							<img src="klr650_1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+					</div>
+					<div class="column">
+						<img src="klr650_2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+					</div>
+					<div class="column">
+						<img src="klr650_3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+				</div>
+				<div class="column">
+					<img src="klr650_4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+				</div>
+			</div>
+
+			<div id="myModal" class="modal">
+					<span class="close cursor" onclick="closeModal()">&times;</span>
+					<div class="modal-content">
+
+							<div class="mySlides">
+									<div class="numbertext">1 / 4</div>
+									<img src="klr650_1.png" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<div class="numbertext">2 / 4</div>
+								<img src="klr650_2.png" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">3 / 4</div>
+							<img src="klr650_3.png" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">4 / 4</div>
+						<img src="klr650_4.png" style="width:100%">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+
+				<div class="column">
+						<img class="demo cursor" src="klr650_1.png" style="width:100%" onclick="currentSlide(1)" alt="">
+				</div>
+				<div class="column">
+						<img class="demo cursor" src="klr650_2.png" style="width:100%" onclick="currentSlide(2)" alt="">
+				</div>
+				<div class="column">
+						<img class="demo cursor" src="klr650_3.png" style="width:100%" onclick="currentSlide(3)" alt="">
+				</div>
+				<div class="column">
+						<img class="demo cursor" src="klr650_4.png" style="width:100%" onclick="currentSlide(4)" alt="">
+				</div>
 			</div>
 		</div>
-			
-			<!--- PHOTO CONTAINER 1 --->
-			<div>
-				<div>
-					<img src="klr650_1.png" alt="A Green 2000 KLR650" height="400" width="600">
-				</div>
-			</div>
-			<br>
-			<!--- END PHOTO CONTAINER 1 --->
-			
-			<!--- PHOTO CONTAINER 2 --->
-			
-			<div>
-				<div>
-					<img src="klr650_2.png" alt="A custom military style KLR650" height="400" width="600">
-				</div>
-			</div>
-			<br>
-			<!--- END PHOTO CONTAINER 2 --->
-			
-			<!--- PHOTO CONTAINER 3 --->
-			
-			<div>
-				<div>
-					<img src="klr650_3.png" alt="A pretty blue 2nd Gen KLR650" height="400" width="600">
-				</div>
-			</div>
-			<br>
-			<!--- END PHOTO CONTAINER 3 --->
-			
-			<!--- PHOTO CONTAINER 4 --->
-			
-			<div>
-				<div>
-					<img src="klr650_4.png" alt="Rad black 2nd Gen KLR650" height="400 width="600>
-				</div>
-			</div>
-			<br>
-			<!--- END PHOTO CONTAINER 4 --->
+
 			
 			<!--- END GALLERY --->
 	<br>	
