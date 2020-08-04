@@ -1,7 +1,3 @@
-
-# Here I am importing sql3 and os
-import sqlite3
-import os
 #
 #   Python: 3.8.3
 #
@@ -15,6 +11,13 @@ import os
 #           corresponding modified time-stamp of
 #           every file ending in said extension.S
 
+
+
+
+
+# Here I am importing sql3 and os
+import sqlite3
+import os
 
 
 # Here I use .connect create and/or call a database I would like to use
