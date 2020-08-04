@@ -2,6 +2,20 @@
 # Here I am importing sql3 and os
 import sqlite3
 import os
+#
+#   Python: 3.8.3
+#
+#   Author: Mark C. Bailor
+#
+#  Purpose: To write a script that will check a 
+#           specific folder to determine if any
+#           of the files contained within the folder
+#           end with a '.txt' extenstion. If they 
+#           do the script is to print the name and
+#           corresponding modified time-stamp of
+#           every file ending in said extension.S
+
+
 
 # Here I use .connect create and/or call a database I would like to use
 conec = sqlite3.connect('python_sql.db')
