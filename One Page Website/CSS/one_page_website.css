@@ -25,6 +25,7 @@ p {
 #contact {
   width: 33%;
   background-color: #FF4500;
+  margin: 35px;
 }
 
 .container {
@@ -33,6 +34,7 @@ p {
   background-color:00FF00;
   border: 3px dotted black;
   border-radius: 8px;
+  margin: 8px;
 
 }
 
@@ -43,6 +45,13 @@ p {
   padding-bottom: 7px;
   margin: 8px;
   position: relative;
+}
+
+input {
+  width: 200;
+  margin: 15px;
+  border: solid black;
+  border-radius: 8px;
 }
 
 .rsvp form input {
@@ -78,7 +87,7 @@ box-sizing: border-box;
 /* The Modal (Background)*/
 .modal {
   display: none;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   padding-top: 100px;
   left: 0;
@@ -91,7 +100,7 @@ box-sizing: border-box;
 
 /* Modal Content */
 .modal-content {
-  position: relative;
+  position: center;
   background-color: #fefefe;
   margin: auto;
   padding: 0;
